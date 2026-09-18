@@ -1,10 +1,10 @@
 package main
 
 import (
-	app_config "api-social-media/app/core/config"
-	"api-social-media/app/core/middlewares"
-	"api-social-media/app/data/db"
-	"api-social-media/app/routes"
+	app_config "api-social-media/internal/core/config"
+	"api-social-media/internal/core/middlewares"
+	"api-social-media/internal/data/providers/database"
+	"api-social-media/internal/routes"
 	"fmt"
 	"log"
 	"net/http"
